@@ -1,7 +1,4 @@
-````markdown
 # WifiSlayer
-
-![WifiSlayer UI](ui.png)
 
 **WifiSlayer** is a modern wireless network security testing tool built with Python and PyQt6. It provides a graphical user interface (GUI) to manage powerful Linux network utilities such as `airmon-ng`, `airodump-ng`, and `mdk4`, allowing users to perform security audits and stress tests with ease.
 
@@ -9,7 +6,7 @@
 
 ## Features
 
-![WifiSlayer Interface](ui.jpeg)
+![WifiSlayer Interface](https://raw.githubusercontent.com/berk-kucuk/WifiSlayer/refs/heads/main/ui.jpeg)
 
 - **Interface Management:** Automatically detects wireless network interfaces available on the system.  
 - **Monitor Mode:** Enables or disables monitor mode on the selected interface with a single click.  
@@ -35,8 +32,6 @@ The following packages must be installed on your Linux system for the applicatio
 
 ```bash
 sudo apt update && sudo apt install aircrack-ng mdk4 network-manager python3-pip
-````
-
 ---
 
 ### 2. Python Libraries
